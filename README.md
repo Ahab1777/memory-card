@@ -12,3 +12,9 @@
         -Scoreboard
         -CardZone:
             Cards
+
+- API reponse structure
+    - Pokemon object propertires:
+        name: name
+        picture: sprites.other["official-artwork"].front_default
+        id: id

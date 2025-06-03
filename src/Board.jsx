@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import CardZone from "./CardZone";
 
 export default function Board(){
     const [pokemonList, setPokemonList] = useState([])
@@ -26,7 +26,9 @@ export default function Board(){
 
     return (
         <>
-        {console.log(pokemonList)}
+            <CardZone
+            pokemonList={pokemonList}
+            ></CardZone>        
         </>
     )
 
