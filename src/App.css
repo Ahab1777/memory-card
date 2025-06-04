@@ -3,9 +3,18 @@
 }
 
 
+/* Board */
+
+.board{
+  display: flex;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+
 /* Score Board */
 
 /* Card Zone */
+
 
 .card-zone{
   display: flex;
@@ -13,18 +22,27 @@
   flex-wrap: wrap;
   justify-content: center;
   max-width: 80vw;
+  gap: 0.5rem;
+  padding: 2rem;
 }
 
 .card{
   flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 1rem 0;
 }
 
 .card img {
-  max-width: 180px;
-  min-width: 150px;
+  max-width: 150px;
+  min-width: 120px;
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: contain;
+
 }
 
 .card h3{
